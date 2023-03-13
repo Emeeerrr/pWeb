@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla y Formulario</title>
+    <link rel="stylesheet" href="tablaForm.css">
+</head>
+<body>
+    <h1>Ejercicio Tabla y Formulario</h1>
+    <hr>
+    <h2>Ejemplo de tabla</h2>
+    <table>
+        <tr class="titabla">
+            <th class="titablaleft">Ciudad</th>
+            <th>Temperatura</th>
+            <th>Fecha</th>
+            <th>Altitud</th>
+            <th>Población</th>
+            <th class="titablaright">Ranking</th>
+        </tr>
+        <tr>
+            <td>Bogota</td>
+            <td>10</td>
+            <td>11/03/2023</td>
+            <td>2600</td>
+            <td>8 millones</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Medellín</td>
+            <td>19</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>4 millones</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Envigado</td>
+            <td>20</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>150 mil</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Cali</td>
+            <td>25</td>
+            <td>11/03/2023</td>
+            <td>1400</td>
+            <td>2 millones</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td class="lastrowleft">Bello</td>
+            <td>23</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>100 mil</td>
+            <td class="lastrowright">3</td>
+        </tr>
+    </table>
+
+    <hr>
+    
+    <h2>Ejemplo de tabla</h2>
+
+    <form action="D:\Vscode\Web\Portfolio\folio.html" method="get">
+        <h2>Datos Personales</h2>
+        <label for="nombres">Nombres:<input type="text" name="nombres" id="nombre" placeholder="Emerson"></label>
+        <label for="apellidos">Apellidos:<input type="text" name="apellidos" id="apellido" placeholder="Rueda"></label>
+        <label for="correo">Correo:<input type="text" name="correo" id="correo" placeholder="erueda@correo.iue.edu.co"></label>
+        <label for="sexo">Sexo:
+            <br>
+            <input type="radio" name="sexo" value="M">Masculino
+            <input type="radio" name="sexo" value="F">Femenino
+        </label>
+        <label for="hobbies">Hobbies:</label> <br>
+        <label for="natacion">Natación<input type="checkbox" name="natacion" value="Natación"></label> <br>
+        <label for="ciclismo">Ciclismo<input type="checkbox" name="ciclismo" value="Ciclismo"></label> <br>
+        <label for="futbol"> Fútbol<input type="checkbox" name="futbol" value="Fútbol"></label> <br>
+        <label for="basket">Basketball<input type="checkbox" name="basket" value="Basketball"></label> <br>
+            <br>
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>

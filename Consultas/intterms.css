@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/galactic-vanguardian-ncv');
+@import url('https://fonts.cdnfonts.com/css/adobe-garamond-pro-2');
+body{
+    position: relative;
+    width: 1024px;
+    height: 1040px;
+    text-align: center;
+    margin: auto auto;
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          
+}
+
+
+h1, h2, h3{
+    font-family: 'GALACTIC VANGUARDIAN NCV', sans-serif;
+}
+
+*{
+    font-family: 'Adobe Garamond Pro', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    color: #242143;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+p{
+    font-style: normal;
+    text-align: justify;
+}

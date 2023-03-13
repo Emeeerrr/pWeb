@@ -1,0 +1,167 @@
+*{
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+}
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 1824px;
+    background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 86.35%);
+}
+
+div #profile{
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+
+#info{
+    position: absolute;
+    width: 507px;
+    height: 1702px;
+    left: 60px;
+    top: 60px;
+    
+    background: linear-gradient(90deg, rgba(117, 127, 154, 0.86) 0%, #D7DDE8 100%);
+    border-radius: 12px;
+}
+h1{
+    position: relative;
+    left: 88px;
+    top: 445px;
+    
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+
+
+p a:link{
+    text-decoration: none;
+    color: black;
+}
+
+p a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+
+div{
+    position: absolute;
+    width: 451px;
+    height: 567px;
+    left: 90px;
+    top: 626px;
+}
+
+#profile{
+    position: absolute;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    /* or 167% */
+    text-align: justify;
+}
+
+#career{
+    position: absolute;
+    left: 101px;
+    top: 563px;
+    
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+
+#fotomia{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 174px;
+    top: 113px;
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 360px;
+}
+
+
+#fotomia:hover {
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-4px);
+}
+
+.imgsinfo{
+    position: absolute;
+    width: 55px;
+    height: 52.95px;
+}
+
+#email{
+    left: 127px;
+    top: 1247px;
+}
+
+#tel{
+    left: 127px;
+    top: 1319px;
+}
+
+#linkedin{
+    left: 127px;
+    top: 1393px;
+}
+
+#identification{
+    left: 127px;
+    top: 1466px;
+}
+
+.skillbar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 18px;
+    height: 230px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.86) 62.39%, rgba(255, 255, 255, 0.86) 62.4%);
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-90deg);
+}
+
+#bar1{
+    left: 758px;
+    top: 1419px;
+}
+
+#bar2{
+    left: 1131px;
+    top: 1419px;
+}
+
+#bar3{
+    left: 758px;
+    top: 1502px;
+}
+
+#bar4{
+    left: 1131px;
+    top: 1502px; 
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.86) 49.9%, rgba(255, 255, 255, 0.86) 49.91%);
+}
+
+#bar5{
+    left: 755px;
+    top: 1585px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.86) 53.54%, rgba(255, 255, 255, 0.86) 53.55%);
+}
+
+#bar6{
+    left: 1131px;
+    top: 1585px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.86) 38.44%, rgba(255, 255, 255, 0.86) 38.45%);
+}
