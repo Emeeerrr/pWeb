@@ -1,0 +1,107 @@
+@import url('https://fonts.cdnfonts.com/css/acme');
+
+body{
+    background: linear-gradient(90deg, #FFEEEE 0%, #DDEFBB 100%);
+}
+
+h1{
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    margin-left: 84px;
+}
+
+.img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 1063px;
+    top: 30px;
+
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 360px;
+}
+
+.img:hover {
+    box-shadow: rgba(255, 255, 255, 0.3) 0 4px 8px, rgba(255, 255, 255, 0.2) 0 7px 13px -3px, #ededf9 0 -3px 0 inset;
+    transform: translateY(-4px);
+}
+
+h2{
+    font-family: 'Acme';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+h3{
+    font-family: 'Acme';
+}
+
+p{
+    font-family: 'Alegreya Sans';  
+}
+
+h3, p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+span{
+    display: inline-block;
+    margin-left: 84px;
+    margin-top: 42px;
+}
+
+a{
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: black;
+    transition: .4s ease-in-out;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: rgb(36, 116, 221);
+    text-decoration: none;
+  }
+
+.subtitle{
+    margin-left: 84px;
+}
+
+.container1{
+    margin-top: 73px;
+    margin-left: 84px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container2{
+    padding-right: 135px;
+}
+
+.container3{
+    padding-right: 135px;
+}
+
+.trabajos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.trabajoimg{
+    border-radius: 360px;
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
