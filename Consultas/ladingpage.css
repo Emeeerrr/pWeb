@@ -1,0 +1,38 @@
+body{
+    width: 800px;
+    height: 1040px;
+    text-align: center;
+    margin: auto auto;
+    background: linear-gradient(90deg, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1, h2, h3{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+
+.text{
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+}
+
+p{
+    font-style: normal;
+    text-align: justify;
+    color: white;
+    font-size: 24px;
+}
+
+#captacion{
+    width: 665px;
+    height: 450px;
+}

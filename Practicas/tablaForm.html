@@ -8,81 +8,123 @@
     <link rel="stylesheet" href="tablaForm.css">
 </head>
 <body>
-    <h1>Ejercicio Tabla y Formulario</h1>
+
+    <header id="inicio">
+        <nav>
+            <a class="boton" href="#tabla">Tabla</a>
+            <a class="boton" href="#formulario">Formulario</a>
+            <a class="boton" href="#multimedia">Multimedia</a>
+            <a class="boton" href="#bingo">Bingo</a>
+            <!--<a class="boton" href=""></a>-->
+        </nav>
+    </header>
+
+    <h1>Prácticas Desarrollo Web</h1>
     <hr>
-    <h2>Ejemplo de tabla</h2>
-    <table>
-        <tr class="titabla">
-            <th class="titablaleft">Ciudad</th>
-            <th>Temperatura</th>
-            <th>Fecha</th>
-            <th>Altitud</th>
-            <th>Población</th>
-            <th class="titablaright">Ranking</th>
-        </tr>
-        <tr>
-            <td>Bogota</td>
-            <td>10</td>
-            <td>11/03/2023</td>
-            <td>2600</td>
-            <td>8 millones</td>
-            <td>1</td>
-        </tr>
-        <tr>
-            <td>Medellín</td>
-            <td>19</td>
-            <td>11/03/2023</td>
-            <td>1600</td>
-            <td>4 millones</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Envigado</td>
-            <td>20</td>
-            <td>11/03/2023</td>
-            <td>1600</td>
-            <td>150 mil</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>Cali</td>
-            <td>25</td>
-            <td>11/03/2023</td>
-            <td>1400</td>
-            <td>2 millones</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td class="lastrowleft">Bello</td>
-            <td>23</td>
-            <td>11/03/2023</td>
-            <td>1600</td>
-            <td>100 mil</td>
-            <td class="lastrowright">3</td>
-        </tr>
-    </table>
+    <section id="tabla">
+        <h2>Ejemplo de tabla</h2>
+        <table id="tabla">
+            <tr class="titabla">
+                <th class="titablaleft">Ciudad</th>
+                <th>Temperatura</th>
+                <th>Fecha</th>
+                <th>Altitud</th>
+                <th>Población</th>
+                <th class="titablaright">Ranking</th>
+            </tr>
+            <tr>
+                <td>Bogota</td>
+                <td>10</td>
+                <td>11/03/2023</td>
+                <td>2600</td>
+                <td>8 millones</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Medellín</td>
+                <td>19</td>
+                <td>11/03/2023</td>
+                <td>1600</td>
+                <td>4 millones</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Envigado</td>
+                <td>20</td>
+                <td>11/03/2023</td>
+                <td>1600</td>
+                <td>150 mil</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Cali</td>
+                <td>25</td>
+                <td>11/03/2023</td>
+                <td>1400</td>
+                <td>2 millones</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td class="lastrowleft">Bello</td>
+                <td>23</td>
+                <td>11/03/2023</td>
+                <td>1600</td>
+                <td>100 mil</td>
+                <td class="lastrowright">3</td>
+            </tr>
+        </table>
+    </section>
 
     <hr>
     
-    <h2>Ejemplo de tabla</h2>
 
-    <form action="D:\Vscode\Web\Portfolio\folio.html" method="get">
-        <h2>Datos Personales</h2>
-        <label for="nombres">Nombres:<input type="text" name="nombres" id="nombre" placeholder="Emerson"></label>
-        <label for="apellidos">Apellidos:<input type="text" name="apellidos" id="apellido" placeholder="Rueda"></label>
-        <label for="correo">Correo:<input type="text" name="correo" id="correo" placeholder="erueda@correo.iue.edu.co"></label>
-        <label for="sexo">Sexo:
-            <br>
-            <input type="radio" name="sexo" value="M">Masculino
-            <input type="radio" name="sexo" value="F">Femenino
-        </label>
-        <label for="hobbies">Hobbies:</label> <br>
-        <label for="natacion">Natación<input type="checkbox" name="natacion" value="Natación"></label> <br>
-        <label for="ciclismo">Ciclismo<input type="checkbox" name="ciclismo" value="Ciclismo"></label> <br>
-        <label for="futbol"> Fútbol<input type="checkbox" name="futbol" value="Fútbol"></label> <br>
-        <label for="basket">Basketball<input type="checkbox" name="basket" value="Basketball"></label> <br>
-            <br>
-        <input type="submit" name="" id="">
-    </form>
+    <section id="formulario">
+        <h2>Ejemplo de tabla</h2>
+
+        <form id="formulario"action="D:\Vscode\Web\Portfolio\folio.html" method="get">
+            <h2>Datos Personales</h2>
+            <label for="nombres">Nombres:<input type="text" name="nombres" id="nombre" placeholder="Emerson"></label>
+            <label for="apellidos">Apellidos:<input type="text" name="apellidos" id="apellido" placeholder="Rueda"></label>
+            <label for="correo">Correo:<input type="text" name="correo" id="correo" placeholder="erueda@correo.iue.edu.co"></label>
+            <label for="sexo">Sexo:
+                <br>
+                <input type="radio" name="sexo" value="M">Masculino
+                <input type="radio" name="sexo" value="F">Femenino
+            </label>
+            <label for="hobbies">Hobbies:</label> <br>
+            <label for="natacion">Natación<input type="checkbox" name="natacion" value="Natación"></label> <br>
+            <label for="ciclismo">Ciclismo<input type="checkbox" name="ciclismo" value="Ciclismo"></label> <br>
+            <label for="futbol"> Fútbol<input type="checkbox" name="futbol" value="Fútbol"></label> <br>
+            <label for="basket">Basketball<input type="checkbox" name="basket" value="Basketball"></label> <br>
+                <br>
+            <input type="submit" name="" id="">
+        </form>
+    </section>
+
+    <br>
+    <br>
+
+    <section id="multimedia">
+        <h2>Ejemplo Multimedia</h2>
+
+        <video width="300px" height="300px" controls>
+            <source src="../Practicas/vinilo-57307.mp4" type="video/mp4">
+            <source src="../Practicas/vinilo-57307.ogg" type="video/ogg">
+            Your browser does not support the video tag
+        </video>
+
+        <audio controls>
+            <source src="../Practicas/cinim-brainfluid-122844.mp3" type="audio/mpeg">
+            <source src="../Practicas/cinim-brainfluid-122844.ogg" type="audio/ogg"> 
+        </audio>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YvzBSQ2YVQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe src="https://www.iue.edu.co" width="500px" height="500px" frameborder="0"></iframe>
+    </section>
+
+    <section id="bingo">
+        
+    </section>
 </body>
 </html>

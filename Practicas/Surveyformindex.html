@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="surveyform.css">
+    <title>Formulario Web</title>
+</head>
+<body>
+    <h1 id="title">Registro pasantias 2023-2</h1>
+    <p id="description">Vive esta experiencia de la mejor manera posible, con las mejores empresas <br>
+        del mercado. Registrate y sé feliz</p>
+    <form method="post" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </label>
+            <label for="email" id="email-label">Email
+                <input type="email" name="email" id="email" placeholder="Enter you Email" required>
+            </label>
+            <label for="number" id="number-label">Age <span>(optional)</span>
+                <input type="number" name="number" id="number" placeholder="Age" min="13" max="100">
+            </label>
+            <label for="dropdown">Which option best describes your current role?
+                <select name="dropdown" id="dropdown">
+                    <option value="0">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Employee</option>
+                    <option value="3">Employer/Company</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <label for="">Would you recommend freeCodeCamp to a friend?</label>
+                <label for=""><input type="radio" name="radio" id="radio1" class="inline" value="0" checked>Definitely</label>
+                <label for=""><input type="radio" name="radio" id="radio2" class="inline" value="1">Maybe</label>
+                <label for=""><input type="radio" name="radio" id="radio3" class="inline" value="2">Not sure</label>
+            
+        </fieldset>
+
+        <fieldset>
+            <label for="checkboxes"> What would you like to see improved? <span>(Check all that apply)</span></label>    
+                <label for="Web"><input type="checkbox" name="Web " id="Web" value="0" class="inline">Web</label>
+                <label for="Mobile App"><input type="checkbox" name="Movile App" id="Movile App" value="1" class="inline">Movile App</label>
+                <label for="IA"><input type="checkbox" name="IA" id="IA" value="2" class="inline">IA</label>
+                <label for="Data Science"><input type="checkbox" name="Data Science" id="Data Science" value="3" class="inline">Data Science</label>
+                <label for="Ciber Security"><input type="checkbox" name="Ciber Security" id="Ciber Security" value="4" class="inline">Ciber Security</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="">Any comments or suggestions?
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+            </label>
+        </fieldset>
+
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
