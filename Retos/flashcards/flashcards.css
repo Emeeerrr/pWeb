@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;900&display=swap');
+
+body {
+  width: 100%;
+  height: 2260px;
+  background-color: #FFF6F6;
+  position: relative;
+}
+
+.title{
+  text-align: center;
+  line-height: 2em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 700%;
+  font-weight: 900;
+  align-items: center;
+  letter-spacing: 0.325em;
+  
+  color: #000000;
+  
+  -webkit-text-stroke: 4px #21C59D;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  height: auto;
+  justify-items: center; /* centers items horizontally */
+  align-items: center; /* centers items vertically */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  column-gap: 3%; /* Ajusta la separación entre elementos si lo deseas */
+  row-gap: 6%;
+}
+
+
+.card{
+  position: relative;
+  width: 270px;
+  height: 350px;
+  border-radius: 25px;
+}
+
+.card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card .front{
+  transform: perspective(600px) rotateY(0deg);
+  background-color: #00ffff;
+  box-shadow: 15px 15px 52px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card .front img{
+  position: relative;
+  top: 25%;
+  left: 25%;
+  max-width: 50%;
+  object-fit: cover;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+.card .back{
+  transform: perspective(600px) rotateY(180deg);
+  background: #00ffff;
+  text-align: justify;
+  box-shadow: 15px 15px 52px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card .back h2{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 30px;
+}
+
+.card .back p{
+  margin: 2em;
+}
+
+.card:hover .front{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+  transform: perspective(600px) rotateY(360deg);
+}

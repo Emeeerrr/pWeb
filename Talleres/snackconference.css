@@ -2,6 +2,7 @@
 
 body{
     background: linear-gradient(90deg, #F7D5B8 0%, #8EDDDB 100%);
+    padding-bottom: 2%;
 }
 
 #cuadrotortica{
@@ -84,7 +85,7 @@ h2{
     margin-bottom: 0px;
     font-family: 'Alegraya Sans', Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 37.5px;
     font-style: normal;
 }
 
@@ -125,7 +126,7 @@ label{
 
 input{
     border-radius: 15px;
-    width: 350px;
+    width: 300px;
     height: 64px;
     margin-left: 20px;
     background: #9FDCD6;
@@ -161,3 +162,14 @@ input{
     color: white;
     transform: translateY(-4px);
 }
+
+/* form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+} */
+/* .renglon{
+    display: flex;
+    justify-content: space-between;
+} */
