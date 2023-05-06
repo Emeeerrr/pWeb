@@ -62,12 +62,6 @@ h2{
     font-weight: 900;
 }
 
-
-
-
-
-
-
 .container{
     display: flex;
 }
@@ -162,14 +156,3 @@ input{
     color: white;
     transform: translateY(-4px);
 }
-
-/* form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: space-around;
-} */
-/* .renglon{
-    display: flex;
-    justify-content: space-between;
-} */

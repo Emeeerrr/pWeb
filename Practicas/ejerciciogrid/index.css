@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&display=swap');
+*{
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+}
+
+figure{
+    padding: 0px;
+    margin: 3px;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Descripcion Fotos"
+      "pieproducto pieproducto";
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 15px;
+  }
+
+  .column{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Descripcion { 
+    grid-area: Descripcion; 
+    background-color: blue;
+    padding: 10px;
+
+    }
+  
+  .Fotos {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Foto-1 Foto-2"
+      "Foto-3 Foto-4";
+    grid-area: Fotos;
+  }
+  
+  .Foto-1 { grid-area: Foto-1; }
+  
+  .Foto-2 { grid-area: Foto-2; }
+  
+  .Foto-3 { grid-area: Foto-3; }
+  
+  .Foto-4 { grid-area: Foto-4; }
+  
+  .pieproducto {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Estado Social Carrito";
+    grid-area: pieproducto;
+    background-color: coral;
+  }
+  
+  .Estado { 
+    grid-area: Estado;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .Social { grid-area: Social; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .Carro { grid-area: Carrito; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
