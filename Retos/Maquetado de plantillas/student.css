@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.ficha {
+    height: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "encabezado-ficha"
+        "actividades-ficha"
+        "estados-ficha";
+    width: 400px;
+    background: radial-gradient(circle, rgba(172,185,255,1) 0%, rgba(51,74,185,1) 100%);
+    border: 3px solid rgba(0, 0, 0, 0.484);
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.encabezado-ficha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "nombre-estudiante nombre-estudiante fotografia"
+        "enlaces enlaces fotografia";
+    grid-area: encabezado-ficha;
+    border: 5px solid transparent;
+    border-radius: 20px;
+}
+
+.nombre-estudiante {
+    padding: 0%;
+    grid-area: nombre-estudiante;
+}
+
+.enlaces {
+    grid-area: enlaces;
+}
+
+.fotografia {
+    grid-area: fotografia;
+}
+
+h1 {
+    margin: 0;
+    font-size: 45px;
+
+}
+
+figure {
+    padding: 0px;
+    margin: 3px;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.actividades-ficha {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    grid-template-areas:
+        "titulo-actividades"
+        "encabezado-actividades"
+        "estado-actividades";
+    grid-area: actividades-ficha;
+    border: 2px solid rgba(0, 0, 0, 0.484);
+    border-radius: 20px;
+
+    background: radial-gradient(circle, rgba(172,185,255,1) 0%, rgba(51,74,185,1) 100%);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+.titulo-actividades {
+    justify-self: center;
+    align-self: center;
+    grid-area: titulo-actividades;
+    font-size: 35px;
+    color: aliceblue;
+
+}
+
+.encabezado-actividades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "item nombre estadouiux estadodev";
+    grid-area: encabezado-actividades;
+    border: 5px solid transparent;
+    border-radius: 20px;
+}
+
+.item {
+    grid-area: item;
+}
+
+.nombre {
+    grid-area: nombre;
+}
+
+.estadouiux {
+    grid-area: estadouiux;
+}
+
+.estadodev {
+    grid-area: estadodev;
+}
+
+.estado-actividades {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "nro enlace porcentajeuiux porcentajedev";
+    grid-area: estado-actividades;
+    background-color: transparent;
+    border: 5px solid transparent;
+    border-radius: 20px;
+}
+
+.enlaces a {
+    font-size: 25px;
+
+}
+
+.nro {
+    grid-area: nro;
+
+}
+
+.enlace {
+    grid-area: enlace;
+
+
+}
+
+.porcentajeuiux {
+    grid-area: porcentajeuiux;
+}
+
+.porcentajedev {
+    grid-area: porcentajedev;
+}
+
+.estados-ficha {
+    /* Reduce el ancho del contenedor a la mitad */
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "estadohtml estadocss estadojs estadoui estadoux total";
+    grid-area: estados-ficha;
+    border: 2px solid rgba(0, 0, 0, 0.484);
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(172,185,255,1) 0%, rgba(51,74,185,1) 100%);
+    font-size: 15px;
+    text-align: center;
+}
+
+.estadohtml {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadohtml;
+    position: relative;
+    display: inline-block;
+
+}
+
+.estadocss {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadocss;
+}
+
+.estadojs {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadojs;
+}
+
+.estadoui {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadoui;
+}
+
+.estadoux {
+    justify-self: center;
+    align-self: center;
+    grid-area: estadoux;
+}
+
+.total {
+    justify-self: center;
+    align-self: center;
+    grid-area: total;
+}
