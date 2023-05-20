@@ -1,106 +1,91 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alegreya+Sans&display=swap');*/
+/* Fuente personalizada */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 
 body{
-    background: linear-gradient(90deg, #FFEEEE 0%, #DDEFBB 100%);
+    background: rgb(42, 58, 95);          
 }
 
-h1{
-    font-family: 'Alegreya Sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 75px;
-    margin-left: 84px;
+header {
+  background-color: #a3e8ff;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #6d6875;
 }
 
-.img{
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 1063px;
-    top: 30px;
-
-    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 360px;
+header h1 {
+  font-size: 36px;
+  margin-top: 20px;
 }
 
-.img:hover {
-    box-shadow: rgba(255, 255, 255, 0.3) 0 4px 8px, rgba(255, 255, 255, 0.2) 0 7px 13px -3px, #ededf9 0 -3px 0 inset;
-    transform: translateY(-4px);
+header p {
+  font-size: 18px;
+  margin: 5px 0;
 }
 
-h2{
-    font-family: 'Acme', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
+/* Estilo para las secciones */
+section {
+  margin-top: 50px;
 }
 
-h3{
-    font-family: 'Acme', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
-p{
-    font-family: 'Alegreya Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-h3, p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
+section li {
+  margin-bottom: 30px;
+  
 }
 
-span{
-    display: inline-block;
-    margin-left: 84px;
-    margin-top: 42px;
+section li h3 {
+  font-size: 20px;
+  color: #6d6875;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
-a{
-    font-family: 'Alegreya Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 40px;
-    color: black;
-    transition: .4s ease-in-out;
-    text-decoration: none;
+section li p {
+  font-size: 16px;
+  color: #687275;
+  margin: 5px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-a:hover{
-    color: rgb(36, 116, 221);
-    text-decoration: underline;
-  }
-
-.subtitle{
-    margin-left: 84px;
+/* Estilo para la imagen de perfil */
+header img {
+  border-radius: 50%;
+  border: 5px solid rgb(42, 58, 95);
+  margin-bottom: 20px;
+  max-width: 150px;
 }
-
-.container1{
-    margin-top: 73px;
-    margin-left: 84px;
-    display: flex;
-    flex-direction: row;
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #a3e8ff;
+  color: #6d6875;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  
 }
 
 
-.container2{
-    padding-right: 110px;
-}
-
-.container3{
-    padding-right: 110px;
-}
-
-.trabajos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    vertical-align: middle;
-}
-
-.trabajoimg{
-    border-radius: 360px;
-    width: 70px;
-    height: 70px;
-    margin-right: 20px;
+a {
+  color: #f6d7dc;
+  text-decoration: none;
+  border-bottom: 2px solid #f6d7dc;
+  transition: border-bottom 0.2s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
 }
