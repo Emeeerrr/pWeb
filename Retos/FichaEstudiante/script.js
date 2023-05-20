@@ -14,11 +14,11 @@ function cargarinfo() {
         var nombre = `<div class="divNombre" > <h1 class="nombre">${Estudiantes[i].nombre}</h1></div> `;
         var carrera = `<div class="divCarrera" > <h2 class="carrera">${Estudiantes[i].carrera}</h2></div>`;
         var correo = `<div class="divCorreo">
-        <a href="mailto:${Estudiantes[i].correo}?subject=Contacto_PaginaWeb"><img class="correo" src="/FichaEstudiantil/img/icons8-email-64.png"></a>`;
+        <a href="mailto:${Estudiantes[i].correo}?subject=Contacto_PaginaWeb"><i class='bx bxl-gmail bx-lg' style='color:#000000'  ></i></a>`;
         var github = `
-        <a href="${Estudiantes[i].github}" target="_blank"><img class="correo" src="/FichaEstudiantil/img/icons8-github-64.png"></a>`;
+        <a href="${Estudiantes[i].github}" target="_blank"><i class='bx bxl-github bx-lg' style='color:#000000'></i></a>`;
         var linkedin = `
-        <a href="${Estudiantes[i].linkedin}" target="_blank"><img class="correo" src="/FichaEstudiantil/img/icons8-linkedin-50.png"></a></div>`;
+        <a href="${Estudiantes[i].linkedin}" target="_blank"><i class='bx bxl-linkedin-square bx-lg' style='color:#000000'></i></a></div>`;
         var uni = `<div class="divU">
         <h2 class="universidad">${Estudiantes[i].universidad}</h2></div></div>`;
         cont = titulo + foto + nombre + carrera + correo + github+linkedin + uni;

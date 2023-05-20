@@ -1,0 +1,14 @@
+{
+    "Estudiante": [
+      {
+        "foto":"/FichaEstudiante/img/Yo.jpeg",
+        "nombre": "Emerson Rueda Restrepo",
+        "carrera": "Ingeniería Informatica",
+        "correo": "eruedar@correo.iue.edu.co",
+        "github":"https://github.com/Emeeerrr/pWeb",
+        "linkedin":"https://www.linkedin.com/in/emerson-rueda-3314b0174/",
+        "universidad": "IUE"
+      }
+    ]
+  }
+  

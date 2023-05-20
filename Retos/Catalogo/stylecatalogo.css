@@ -1,0 +1,169 @@
+body {
+    font-family: 'Handlee','Indie Flower', 'Alata',sans-serif;
+    padding: 10px;
+    background: url(imagenes/tenis1.jpg) no-repeat;
+    background-size: contain;
+    
+  }
+  :root{
+    --azul:#18caee;
+    --azul2:#b2decd;
+    --rosa:#ee2a65;
+    --amarillo:#ffd50f;
+    --morado:#bfb5df;
+    --amarillo1:#ffe66f;
+    --rosa2:#ffacdb;
+    --rosa1:#ee2a65;
+    --azul1:#a8def5;
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    
+    background: rgba(255, 255, 255, 0.719);
+    display: flex;
+    border-radius: 10px;
+    border: 3px gray solid;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+ 
+
+  }
+  
+  .header h1 {
+    font-size: 100px;
+    font-family: 'Indie Flower';
+    
+  }
+  .header p {
+    font-size: xx-large;
+    font-style:bold;
+    
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 25%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 75%;
+    font-size: 16px;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    
+  }
+
+ 
+  
+  /* Add a card effect for articles */
+  .cards {
+    background-color: rgba(255, 255, 255, 0.918);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px gray solid;
+    
+    
+  }
+
+  .cards h2{
+      font-size: xx-large;
+      text-align: center;
+  }
+  .cards p,i{
+      font-size: x-large;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+ .footer {
+  width: 100%;
+  height: 20%;
+  padding: 10px;
+  
+  background: #ddd;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer_left{
+  flex-direction: column;
+  padding: 0 0 0 20px ;
+  text-align: center; 
+
+  width: 75%;
+}
+.footer_rigt{
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 25%;
+
+
+}
+
+
+
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, var(--azul) 0%, var(--azul2) 100%);
+    padding: 5px;
+    margin: 2%;
+    border-radius: 8px;
+    color: black;
+}
+
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+   
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+    margin-bottom: 3%;
+    }
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(19, 55, 126, 0.692);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card img{
+width: 80%;
+max-height: 55%;
+border-radius: 10%;
+justify-content: center;
+}
+
+.card p{
+    font-weight: 10%;
+    font-size: x-large;
+    margin-bottom: 2%;
+}
+.card h3{
+    font-weight: 10%;
+    font-size: x-large;
+}
